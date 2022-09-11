@@ -1,0 +1,189 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #130d0a;
+  /*; #b9b3a9*/
+  font-family: termina, sans-serif;
+  color: #fff;
+  /* #111; */
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 1;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+#hero {
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+#content {
+  background-color: #130d0a;
+  /*#b9b3a9;*/
+}
+
+.layer {
+  background-position: bottom center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 100%;
+  height: 800px;
+  position: absolute;
+  /* position: fixed; */
+  z-index: -1;
+}
+
+#hero-mobile {
+  display: none;
+  /* background: url("https://portfolio1.7netic.com/images/scroll-0724/full-illustration-m.jpg") no-repeat center bottom/cover; */
+  height: 320px;
+}
+
+.first-section {
+  padding: 50px 0 20px 0;
+}
+
+.text-header {
+  font-size: 50px;
+  text-align: center;
+}
+
+h1 {
+  line-height: 120%;
+  margin-bottom: 30px;
+}
+
+p {
+  color: #fcefe3;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+/* #hero, .layer {
+  min-height: 800px;
+} */
+.layer-bg {
+  background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_bg-7netic-0724-2.jpg");
+}
+
+/* venus */
+.layer-1 {
+  background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_03.png");
+  background-position: left bottom;
+}
+
+.layer-2 {
+  background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_02-7netic.png");
+}
+
+.layer-3 {
+  background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_man.png");
+  background-position: right bottom;
+}
+
+.layer-4 {
+  /* background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_01.png"); */
+}
+
+.layer-overlay {
+  /* background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_overlay.png"); */
+}
+
+@media only screen and (max-width: 768px) {
+  #hero, .layer {
+    height: 600px !important;
+  }
+
+  .layer-bg {
+    background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_bg-7netic-m-0724.jpg");
+    /* background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_bg-7netic.jpg"); */
+  }
+
+  /* venus */
+  .layer-1 {
+    background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_03-t.png");
+    background-position: 10px 30px;
+    /* background-image: url("/images/ilu_03.png");
+    background-position: -80px -30px; */
+  }
+
+  .layer-2 {
+    background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_02-t.png");
+    /* background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_02-7netic.png"); */
+  }
+
+  .layer-3 {
+    background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_man-t.png");
+    /* background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_man.png"); */
+    background-position: right bottom;
+  }
+
+  .layer-4 {
+    display: none;
+    /* background-image: url("/images/ilu_01-m.png"); */
+    /* background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_01.png"); */
+  }
+
+  .layer-overlay {
+    background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_overlay-m.png");
+    /* background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_overlay.png"); */
+  }
+}
+@media only screen and (max-width: 520px) {
+  #hero, .layer {
+    height: 380px !important;
+    width: 100%;
+  }
+
+  /* venus */
+  .layer-1 {
+    background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_03-m.png");
+    background-position: 0px 0px;
+    /* background-image: url("/images/ilu_03.png");
+    background-position: -80px -30px; */
+  }
+
+  .layer-2 {
+    background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_02-m.png");
+    /* background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_02-7netic.png"); */
+  }
+
+  .layer-3 {
+    background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_man-m.png");
+    /* background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_man.png"); */
+    background-position: right bottom;
+  }
+
+  .layer-4 {
+    /* display: none; */
+    /* background-image: url("/images/ilu_01.png"); */
+    /* background-image: url("https://portfolio1.7netic.com/images/scroll-0724/ilu_01.png"); */
+  }
+}
+/* @media only screen and (max-width: 768px) {
+  #hero {
+    display: none;
+  }
+
+  #hero-mobile {
+    display: block;
+  }
+} */
+.tutorial-link {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.tutorial-link:hover {
+  color: #ede0d5;
+}
